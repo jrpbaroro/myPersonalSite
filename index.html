@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./pictures/icon.png" />
+    <title>JRPBARORO Personal Site</title>
+
+    <!-- Bootstrap 5.2  CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <!-- Goole Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&family=Nuosu+SIL&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <!-- <i class="fa-regular fa-user fa-2x icon"></i> -->
+          <a class="navbar-brand" href="index.html">My Personal Site</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#lastSection">Download</a>
+              </li>
+              <!-- <li class="nav-item">
+              <a class="nav-link" href="grades.html">Grades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Certificates</a>
+            </li> -->
+              <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Achievements
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Grades</a></li>
+                <li><a class="dropdown-item" href="#">Certificates</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">B.S. COE Diploma</a>
+                </li>
+              </ul>
+            </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="coloredSection" id="firstSection">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 myPhoto">
+            <img
+              src="./pictures/profile.jpg"
+              alt="profilePic"
+              id="profilePicture"
+            />
+          </div>
+          <div class="col-lg-6 basicIntro">
+            <h1 class="big-heading">ABOUT MYSELF</h1>
+            <h3 class="medium-heading">
+              I am <strong>James Russel P. Baroro</strong>, a diligent graduate
+              from Malayan Colleges Laguna with a degree of
+              <strong
+                >Bachelors of Science in Computer Engineering (B.S. COE)</strong
+              >. Highly motivated and agile in terms of learning new things.
+            </h3>
+            <div class="Objective">
+              <h1 class="big-heading">OBJECTIVE</h1>
+              <h3 class="medium-heading">
+                To be a part of a prestigious company that helps its people to
+                meet their goals where I can use my skills, knowledge, and
+                experience. Also, to gain new experiences and explore new things
+                that will make me a better individual.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="uncoloredSection" id="secondSection">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="attitudeBox col-lg-4">
+            <i class="fas fa-users fa-5x icon"></i>
+            <h3 class="third-heading">Team Oriented</h3>
+            <p class="small-descript">
+              Capable of working with others and take charge when needed.
+            </p>
+          </div>
+          <div class="attitudeBox col-lg-4">
+            <i class="fa-solid fa-briefcase fa-5x icon"></i>
+            <h3 class="third-heading">Diligent</h3>
+            <p class="small-descript">
+              Works hard and smart in a careful and successful way.
+            </p>
+          </div>
+          <div class="attitudeBox col-lg-4">
+            <i class="fas fa-shield-alt fa-5x icon"></i>
+            <h3 class="third-heading">Dependable</h3>
+            <p class="small-descript">
+              Capable of being depended on, worthy of trust, and reliable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="coloredSection" id="thirdSection">
+      <h1 class="skill">SKILLS AND ABILITIES</h1>
+      <div
+        id="carouselDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item container-fluid active"
+            data-bs-interval="10000"
+          >
+            <h3 class="medium-heading">
+              Has an intermediate level of skill in front-end web development
+              using HTML, CSS, JavaScript, Bootstrap, and jQuery. Has basic
+              level of skill working with different programming languages such
+              as C++ and C#
+            </h3>
+            <div class="skill-icon">
+              <h5><em>PROGRAMMING SKILLS</em></h5>
+              <img
+                class="skill-img"
+                src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif"
+                alt="prog-skill"
+              />
+            </div>
+          </div>
+          <div class="carousel-item container-fluid" data-bs-interval="2000">
+            <h3 class="medium-heading">
+              Accomplished tasks through monitoring and searching of information
+              via Sophos dashboard and logs & reports. Has an intermediate level
+              of skill working with version control tool such as Git
+            </h3>
+            <div class="skill-icon">
+              <h5><em>ORGANIZATIONAL SKILLS</em></h5>
+              <img
+                class="skill-img"
+                src="https://i.pinimg.com/originals/c0/34/17/c03417ebf4f447610528b07a704e0540.gif"
+                alt="org-pic"
+              />
+            </div>
+          </div>
+          <div class="carousel-item container-fluid" data-bs-interval="3000">
+            <h3 class="medium-heading">
+              Successfully assembled and disassembled a fully functional desktop
+              computer during the course or subject about Computer Hardware
+              Fundamentals. Successfully assembled a mid-range gaming desktop
+              computer
+            </h3>
+            <div class="skill-icon">
+              <h5><em>HARDWARE SKILLS</em></h5>
+              <img
+                class="skill-img"
+                src="https://i.pinimg.com/originals/c8/19/19/c819199ee14f958f0129ed98eff87870.gif"
+                alt="pc-build"
+              />
+            </div>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h3 class="medium-heading">
+              Gave opinions and commented on ideas in group discussion for a
+              capstone proposal topic. Successfully delivered the capstone
+              proposal speech in front of the panel.
+            </h3>
+            <div class="skill-icon">
+              <h5><em>COMMUNICATION SKILLS</em></h5>
+              <img
+                class="skill-img"
+                src="https://cdn.dribbble.com/users/310943/screenshots/2518631/push-notifications-illustration2.gif"
+                alt="communication-skill"
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="uncoloredSection" id="fourthSection">
+      <h1>MY WORK EXPERIENCE</h1>
+      <p class="experience-text">
+        Experts Academy for Applied Information Technology Inc. / Oct 2020 – Dec
+        2020 / Unit 302 3F SEDCCO Bldg. Rada St. Legaspi Village, Makati City,
+        NCR
+      </p>
+      <div class="container-fluid row">
+        <div class="col-lg-6">
+          <img
+            class="experts-img"
+            src="https://i0.wp.com/www.sithcomputers.com/wp-content/uploads/2021/05/Cyber-Security-1.gif?w=640&ssl=1"
+            alt="experts-pic"
+          />
+        </div>
+
+        <div class="col-lg-6 roles-respon">
+          <h3 class="small-heading">
+            My Role and Responsibilities as a Cadet Engineer
+          </h3>
+          <ul class="experience-text">
+            <li>
+              View the logs and reports such as Alerts, detected threats, users,
+              devices, and device events in the Sophos.
+            </li>
+            <li>
+              Capture or export the logs, reports, and events generated by
+              Sophos central.
+            </li>
+            <li>Document the captured data or logs.</li>
+            <li>
+              Send documentation report to Experts Academy for Applied IT Inc.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="coloredSection" id="lastSection">
+      <div class="container-fluid">
+        <h3 class="big-heading">Get the Soft Copy of my RESUME here!</h3>
+        <!--<button class="btn btn-lg btn-dark download-button" type="button" ><i class="fab fa-apple"></i> Download</button>-->
+        <a
+          href="https://drive.google.com/file/d/1WjbqKPRTq3hSeQaIP3yUypd38HadZ95F/view?usp=sharing"
+          class="btn btn-lg btn-primary download-button"
+          role="button"
+          ><i class="fab fa-google-drive"></i> Download</a
+        >
+        <a
+          href="./download/JRPBaroro-RESUME.pdf"
+          class="btn btn-outline-dark btn-lg btn-light download-button"
+          target="_blank"
+          role="button"
+          ><i class="fas fa-link"></i> Download</a
+        >
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div>
+        <h5>Connect with Me.</h5>
+      </div>
+      <div>
+        <a class="gmail-mail" href="mailto:jamesrusselbaroro.ph18@gmail.com"
+          ><i class="social-icon far fa-envelope"></i
+        ></a>
+        <a class="skype" href="https://join.skype.com/invite/X3hxVNoXm8fs"
+          ><i class="social-icon fab fa-skype"></i
+        ></a>
+        <a class="viber-chat" href="viber://chat/?number=%2B639120806704"
+          ><i class="social-icon fab fa-viber"></i
+        ></a>
+        <a
+          class="linkedIn"
+          href="https://www.linkedin.com/in/james-russel-baroro-8985841bb/"
+          ><i class="social-icon fab fa-linkedin"></i
+        ></a>
+        <p>© Copyright 2022 JAMES RUSSEL BARORO</p>
+      </div>
+    </footer>
+
+    <!--FONT AWESOME-->
+    <!-- <script
+      src="https://kit.fontawesome.com/1c9ad4b785.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+      integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Bootstrap 5.2 js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
