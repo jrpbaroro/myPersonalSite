@@ -271,3 +271,62 @@ body {
   transition: transform 0.3s;
 
 }
+
+
+/* Media Query */
+
+@media (max-width: 515px)  {
+  #thirdSection .carousel .carousel-inner .container-fluid {
+    padding: 1rem;
+  }
+  
+  #thirdSection .carousel .carousel-inner .container-fluid .medium-heading {
+    font-size: 1.1rem;
+  }
+  
+  #thirdSection
+    .carousel
+    .carousel-inner
+    .container-fluid:last-of-type
+    .medium-heading {
+    margin: 0 2rem;
+  }
+
+  #thirdSection .carousel .carousel-inner .container-fluid .skill-img {
+    border-radius: 100%;
+    margin-top: 0.4rem;
+    width: 7rem;
+    margin-bottom: 1.3rem;
+  }
+  
+  #thirdSection .carousel .carousel-inner .container-fluid .skill-icon {
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  #thirdSection .carousel .carousel-inner .container-fluid .skill-icon h5 {
+    font-size: 0.8rem;
+  }
+
+  
+  #fourthSection h1 {
+    font-size: 2.1rem;
+  }
+  
+  #fourthSection .container-fluid {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  #fourthSection .container-fluid .roles-respon .experience-text {
+    line-height: 1.5;
+  }
+
+
+  #lastSection .container-fluid .big-heading {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+  
+}
