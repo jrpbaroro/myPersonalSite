@@ -276,6 +276,10 @@ body {
 /* Media Query */
 
 @media (max-width: 515px)  {
+  #thirdSection .skill {
+    font-size: 2.3rem;
+  }
+  
   #thirdSection .carousel .carousel-inner .container-fluid {
     padding: 1rem;
   }
@@ -289,7 +293,7 @@ body {
     .carousel-inner
     .container-fluid:last-of-type
     .medium-heading {
-    margin: 0 2rem;
+    margin: 0 1.5rem;
   }
 
   #thirdSection .carousel .carousel-inner .container-fluid .skill-img {
@@ -328,5 +332,11 @@ body {
     line-height: 1.5;
     font-weight: 900;
   }
+
+  #footer .social-icon {
+    font-size: 2rem;
+    padding: 0 0.6rem;
+  }
   
 }
+
