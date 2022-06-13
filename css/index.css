@@ -334,10 +334,13 @@ body {
   }
 
   #footer .social-icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0 0.6rem;
+  }
+
+  #footer .copyRight {
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
   }
   
 }
-
-
