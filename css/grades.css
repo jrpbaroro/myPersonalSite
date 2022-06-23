@@ -1,0 +1,220 @@
+.basicIntro .big-heading {
+  text-align: center;
+  padding-bottom: 1.2rem;
+  font-size: 2.8rem;
+}
+
+.studDets {
+  /* margin-left: 0.2rem; */
+  padding: 2rem;
+  border-style: double;
+  border-radius: 1rem;
+  border-color: #82954b;
+  border-width: 0.5rem;
+}
+
+.studDets > .myStudentDetails {
+  color: #92ba92;
+  border-bottom: 1px solid;
+}
+
+.studDets > .myStudentDetails h3 {
+  color: #1a4d2e;
+  font-size: 1.6rem;
+  line-height: 2;
+  text-align: justify;
+}
+
+.studDets > .myStudentDetails .small-dets {
+  font-family: "Ubuntu", sans-serif;
+  color: #4b8673;
+}
+
+#profilePicture {
+  border-radius: 100%;
+}
+
+.uncoloredSection {
+  text-align: center;
+}
+
+.uncoloredSection .container-fluid {
+  padding: 2rem !important;
+  text-align: center;
+}
+
+.uncoloredSection h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #251d3a;
+  font-weight: 900;
+  font-size: 3rem;
+  padding-bottom: 1.25rem;
+}
+
+/* ============== Gallery ============ */
+.list-wrapper {
+  overflow: hidden;
+}
+
+.list-item .caption {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 1.25rem;
+  /* border: 1px solid #EEE;
+    border-radius: 1rem;
+	background: #FFF;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 10px 0px #EEE; */
+}
+
+.gradeImg {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 80%;
+}
+
+.list-item h4 {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  font-size: 1.1rem;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  color: #ffffff;
+}
+
+.simple-pagination ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.simple-pagination li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+  font-size: 18px;
+  border-radius: 25%;
+  color: #666;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #eee;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px #eee;
+}
+
+.simple-pagination .current {
+  color: #fff;
+  background-color: #4e944f;
+  border-color: #4e944f;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+  background: #4e944f;
+}
+
+/* ===================== Laptop ========================== */
+@media screen and (max-width: 1600px) {
+  .basicIntro .big-heading {
+    padding-bottom: 1rem;
+    font-size: 2.4rem;
+  }
+
+  .studDets {
+    padding: 1rem;
+  }
+
+  .studDets > .myStudentDetails h3 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  #profilePicture {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .basicIntro .big-heading {
+    padding-bottom: 1rem;
+    font-size: 1.9rem;
+  }
+
+  .studDets {
+    padding: 0.7rem;
+  }
+
+  .studDets > .myStudentDetails h3 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  
+}
+
+@media screen and (max-width: 1040px) {
+    .basicIntro .big-heading {
+      padding-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+  
+    .studDets > .myStudentDetails h3 {
+      font-size: 1.2rem;
+      line-height: 1.2;
+    }
+  
+    .uncoloredSection h1 {
+      font-size: 2.5rem;
+    }
+
+    .list-item .caption {
+        width: 100%;
+      }
+    
+      .gradeImg {
+        width: 100%;
+      }
+  }
+
+
+/* =============== Tablet ============================= */
+@media screen and (max-width: 921px) {
+  #profilePicture {
+    width: 55%;
+  }
+}
+/* =============== Mobile ============================= */
+@media screen and (max-width: 515px) {
+  .basicIntro .big-heading {
+    padding-bottom: 1rem;
+    font-size: 1.7rem;
+  }
+
+  .studDets {
+    padding: 0.5rem;
+    border-width: 0.4rem;
+  }
+
+  .uncoloredSection .container-fluid {
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .uncoloredSection h1 {
+    font-size: 1.7rem;
+  }
+
+  .list-item .caption {
+    width: 100%;
+  }
+
+  .gradeImg {
+    width: 100%;
+  }
+}
