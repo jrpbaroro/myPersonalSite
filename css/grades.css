@@ -48,7 +48,12 @@
   color: #251d3a;
   font-weight: 900;
   font-size: 3rem;
-  padding-bottom: 1.25rem;
+  /* padding-bottom: 1.25rem; */
+}
+
+.uncoloredSection .small-descript {
+  color: #2a2550;
+  font-family: "Nuosu SIL", serif;
 }
 
 /* ============== Gallery ============ */
@@ -119,6 +124,94 @@
   background: #4e944f;
 }
 
+#gradesThirdSection {
+  text-align: center;
+}
+
+#gradesThirdSection h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #4e944f;
+  line-height: 1.5;
+}
+
+#gradesThirdSection h1 {
+  margin: 0;
+}
+
+#gradesThirdSection .small-descript {
+  color: #005555;
+  font-family: "Nuosu SIL", serif;
+  padding: 0 15% 1.25rem 15%;
+}
+
+#gradesThirdSection .container-fluid .row .card {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+#gradesThirdSection .container-fluid .row {
+  padding: 0 14%;
+}
+
+#gradesThirdSection .container-fluid .row:nth-child(even) {
+  padding: 0 26%;
+}
+
+#gradesThirdSection .container-fluid .row .card {
+  background: #faf5e4;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+#gradesThirdSection .container-fluid .row .card .card-body .iconInstitute {
+  width: 262px;
+  height: 280px;
+}
+
+#gradesThirdSection .container-fluid .row .card .card-title {
+  background-color: #82954b;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin: 0;
+  color: #faf5e4;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#gradesFourthSection .carousel-inner .carousel-item .certImg {
+  width: 70%;
+  margin-bottom: 1%;
+}
+
+/* #gradesFourthSection .carousel-inner .container-fluid {
+  padding: 2% 0 6%!important;
+} */
+
+/* #gradesThirdSection .container-fluid .row .col-lg-4:first-of-type .card{
+  margin-left: 200px;
+} */
+
+/* #gradesThirdSection .container-fluid .row .col-lg-4:nth-child(1) .card{
+  margin-left: 200px;
+}
+
+#gradesThirdSection .container-fluid .row .col-lg-4:nth-child(3) .card{
+  margin-right: 200px;
+}
+
+#gradesThirdSection .container-fluid .row .col-lg-6:nth-child(even) .card{
+  margin-left: 400px;
+}
+
+#gradesThirdSection .container-fluid .row .col-lg-6:nth-child(odd) .card{
+  margin-right: 400px;
+} */
+
+/* #gradesThirdSection .container-fluid .row .col-lg-6:last-of-type .card{
+  margin-right: 200px;
+} */
+
 /* ===================== Laptop ========================== */
 @media screen and (max-width: 1600px) {
   .basicIntro .big-heading {
@@ -138,6 +231,18 @@
   #profilePicture {
     width: 75%;
   }
+
+  #gradesThirdSection .container-fluid .row {
+    padding: 0;
+  }
+  
+  #gradesThirdSection .container-fluid .row:nth-child(even) {
+    padding: 0 16%;
+  }
+
+  #gradesFourthSection .carousel-inner .carousel-item .certImg {
+    width: 85%;
+  }
 }
 
 @media screen and (max-width: 1430px) {
@@ -154,43 +259,92 @@
     font-size: 1.25rem;
     line-height: 1.2;
   }
+}
 
-  
+@media screen and (max-width: 1110px) {
+  #gradesThirdSection {
+    padding: 5%;
+  }
 }
 
 @media screen and (max-width: 1040px) {
-    .basicIntro .big-heading {
-      padding-bottom: 1rem;
-      font-size: 1.5rem;
-    }
-  
-    .studDets > .myStudentDetails h3 {
-      font-size: 1.2rem;
-      line-height: 1.2;
-    }
-  
-    .uncoloredSection h1 {
-      font-size: 2.5rem;
-    }
-
-    .list-item .caption {
-        width: 100%;
-      }
-    
-      .gradeImg {
-        width: 100%;
-      }
+  .basicIntro .big-heading {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
   }
 
+  .studDets > .myStudentDetails h3 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .uncoloredSection h1 {
+    font-size: 2.5rem;
+  }
+
+  .list-item .caption {
+    width: 100%;
+  }
+
+  .gradeImg {
+    width: 100%;
+  }
+}
 
 /* =============== Tablet ============================= */
 @media screen and (max-width: 921px) {
   #profilePicture {
     width: 55%;
   }
+
+  #gradesThirdSection h1 {
+    font-size: 2.6rem;
+  }
+
+  #gradesThirdSection .small-descript {
+    padding: 0 2%;
+  }
+
+  #gradesThirdSection .container-fluid .row {
+
+    padding: 0;
+  }
+
+  #gradesThirdSection .container-fluid .row:nth-child(even) {
+    padding: 0 15%;
+  }
+
+  #gradesThirdSection .container-fluid .row .card {
+    width: 100%!important;
+  }
+
+  #gradesThirdSection .container-fluid .row .card .card-body .iconInstitute {
+    width: 162px;
+    height: 180px;
+  }
+
+  #gradesThirdSection .container-fluid .row .card .card-title h3 {
+    font-size: 1.2rem;
+    padding-top: 0.3rem;
+  }
+
+  #gradesFourthSection {
+    padding: 6% 0;
+  }
+
+  #gradesFourthSection .carousel-inner .carousel-item .certImg {
+    width: 90%;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  #gradesThirdSection {
+    padding: 3%;
+  }
+}
+
 /* =============== Mobile ============================= */
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 680px) {
   .basicIntro .big-heading {
     padding-bottom: 1rem;
     font-size: 1.7rem;
@@ -216,5 +370,31 @@
 
   .gradeImg {
     width: 100%;
+    height: 65vh;
   }
+
+
+  #gradesThirdSection h1 {
+    font-size: 2rem;
+  }
+
+  #gradesThirdSection .small-descript {
+    padding: 0 2%;
+  }
+
+  #gradesThirdSection .container-fluid .row:nth-child(even) {
+    padding: 0;
+  }
+
+  #gradesThirdSection .container-fluid .row .card {
+    width: 15rem!important;
+  }
+
+  #gradesFourthSection .carousel-inner .carousel-item .certImg {
+    padding: 0 3%;
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 9%;
+  }
+
 }
