@@ -80,8 +80,8 @@ body {
   padding: 5% 10%;
 }
 
-#secondSection{
-    padding: 6%;
+#secondSection {
+  padding: 6%;
 }
 
 #secondSection .container-fluid {
@@ -266,38 +266,45 @@ body {
 }
 
 .social-icon:hover {
-  color: #1363DF;
+  color: #1363df;
   transform: scale(1.5);
   transition: transform 0.3s;
-
 }
 
-
 /* Media Query */
+@media screen and (max-width: 1280px) {
+  #secondSection .container-fluid .row .attitudeBox {
+    padding: 0 4rem;
+  }
+}
 
-@media (max-width: 515px)  {
+@media (max-width: 515px) {
+  /* .skill-abi {
+    padding: 0%!important;
+  } */
+
   #thirdSection {
     padding: 3% 8%;
   }
-  
+
   #thirdSection .skill {
     font-size: 2.3rem;
   }
-  
+
   #thirdSection .carousel .carousel-inner .container-fluid {
-    padding: 1.3rem;
+    padding: 1.4rem;
   }
-  
+
   #thirdSection .carousel .carousel-inner .container-fluid .medium-heading {
     font-size: 1.1rem;
   }
-  
+
   #thirdSection
     .carousel
     .carousel-inner
     .container-fluid:last-of-type
     .medium-heading {
-    margin: 0 1.5rem;
+    margin: 0 1.6rem;
   }
 
   #thirdSection .carousel .carousel-inner .container-fluid .skill-img {
@@ -306,30 +313,32 @@ body {
     width: 7rem;
     margin-bottom: 1.3rem;
   }
-  
+
   #thirdSection .carousel .carousel-inner .container-fluid .skill-icon {
     margin-top: 1.2rem;
     margin-bottom: 0;
   }
-  
+
   #thirdSection .carousel .carousel-inner .container-fluid .skill-icon h5 {
     font-size: 0.8rem;
   }
 
-  
   #fourthSection h1 {
     font-size: 2.1rem;
   }
-  
+
   #fourthSection .container-fluid {
     padding: 1rem;
     margin: 0;
   }
 
+  #fourthSection .container-fluid .experts-img {
+    width: 80%;
+  }
+
   #fourthSection .container-fluid .roles-respon .experience-text {
     line-height: 1.5;
   }
-
 
   #lastSection .container-fluid .big-heading {
     font-size: 1.8rem;
@@ -346,5 +355,47 @@ body {
     padding-top: 0.5rem;
     font-size: 0.7rem;
   }
-  
+}
+
+@media screen and (max-width: 375px) {
+  #thirdSection .carousel-inner .container-fluid {
+    padding: 1rem 0 !important;
+  }
+
+  #thirdSection .carousel-inner .container-fluid .medium-heading {
+    font-size: 0.9rem !important;
+  }
+
+  #fourthSection .container-fluid {
+    padding: 5% 0;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .navbar-brand,
+  .nav-item {
+    font-size: 1rem;
+  }
+
+  .navbar-toggler {
+    font-size: 1rem !important;
+  }
+
+  .basicIntro .medium-heading {
+    font-size: 1.2rem;
+  }
+
+  #secondSection .container-fluid .row .attitudeBox {
+    padding: 0 2rem;
+  }
+
+  #fourthSection .container-fluid .roles-respon h3 {
+    font-size: 1.25rem;
+  }
+
+  #fourthSection .container-fluid .roles-respon .experience-text {
+    font-size: 1rem;
+    line-height: 1.15;
+  }
 }
